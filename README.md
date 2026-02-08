@@ -83,7 +83,7 @@ SELECT s.sale_id,
 FROM sales s
 INNER JOIN customers c ON s.customer_id = c.customer_id
 INNER JOIN products p ON s.product_id = p.product_id;
-
+![Image AET](https://github.com/KamandaD/window-functions--29401-Kamanda/blob/5c386530dfb0d72cb01255b46d651f7f74107937/screenshots/inner-join.png)
 
 Business Interpretation:
 This query retrieves complete transaction records where customer and product data exist. It ensures only valid and consistent sales records are analyzed.
