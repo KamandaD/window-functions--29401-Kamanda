@@ -202,7 +202,7 @@ SELECT customer_id,
 FROM sales
 GROUP BY customer_id;
 
-
+![Image AET](https://github.com/KamandaD/window-functions--29401-Kamanda/blob/892891429abf8199ad4bc7fcbdcd9ccdfdaaa037/screenshots/Distribution%20Functions.png)
 Interpretation:
 Segments customers into four spending levels, supporting targeted marketing strategies.
 
