@@ -158,7 +158,7 @@ FROM sales s
 JOIN customers c ON s.customer_id = c.customer_id
 GROUP BY c.customer_name;
 
-
+![Image AET](https://github.com/KamandaD/window-functions--29401-Kamanda/blob/f088dd66ea8544341d3b7f867e9b09fed9b10131/screenshots/Ranking%20Functions.png)
 Interpretation:
 Ranks customers based on total spending, helping identify top-value clients and prioritize loyalty strategies.
 
