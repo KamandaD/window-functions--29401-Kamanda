@@ -142,7 +142,7 @@ FROM customers a
 JOIN customers b
   ON a.region = b.region
  AND a.customer_id <> b.customer_id;
-![Imange AET(https://github.com/KamandaD/window-functions--29401-Kamanda/blob/c602e4f1b99f76407ac0d2b9bbddb74fddec0402/screenshots/self-join.png)]
+![Image AET](https://github.com/KamandaD/window-functions--29401-Kamanda/blob/c602e4f1b99f76407ac0d2b9bbddb74fddec0402/screenshots/self-join.png)
 
 Business Interpretation:
 This query compares customers from the same region to analyze regional concentration and distribution patterns.
