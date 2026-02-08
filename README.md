@@ -190,7 +190,7 @@ SELECT DATE_TRUNC('month', sale_date) AS sale_month,
 FROM sales
 GROUP BY DATE_TRUNC('month', sale_date);
 
-
+![Image AET](https://github.com/KamandaD/window-functions--29401-Kamanda/blob/8ae975924b4663acad8110b4ad45b54b6ada0b70/screenshots/Navigation%20Functions.png)
 Interpretation:
 Compares monthly sales with the previous month to identify growth or decline patterns.
 
