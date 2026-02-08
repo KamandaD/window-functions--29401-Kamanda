@@ -98,7 +98,7 @@ FROM customers c
 LEFT JOIN sales s ON c.customer_id = s.customer_id
 WHERE s.sale_id IS NULL;
 
-
+![Image AET](https://github.com/KamandaD/window-functions--29401-Kamanda/blob/e37f7b04a12e71fc2800291b6b4c7ccf204b9d6f/screenshots/letf-join.png)
 Business Interpretation:
 This identifies inactive customers who may require targeted marketing campaigns to encourage engagement.
 
