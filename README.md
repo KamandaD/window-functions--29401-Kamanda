@@ -130,7 +130,7 @@ FULL OUTER JOIN products p ON s.product_id = p.product_id;
 
 Business Interpretation:
 Provides a complete overview of relationships between customers and products, including unmatched entries.
-
+![Image AET](https://github.com/KamandaD/window-functions--29401-Kamanda/blob/897972a9d87a3bfb0f92d86bbfdea00db1ff2176/screenshots/FULL%20OUTER%20JOIN.png)
 **5. SELF JOIN**
 
 Compare customers within the same region.
