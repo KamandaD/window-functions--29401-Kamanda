@@ -176,7 +176,7 @@ SELECT sale_date,
 FROM sales
 GROUP BY sale_date
 ORDER BY sale_date;
-
+![Image AET](https://github.com/KamandaD/window-functions--29401-Kamanda/blob/dabec61215ed1d6918cb0ef20b6dc34ccf08df81/screenshots/insert_into-customer.png)
 
 Interpretation:
 Shows cumulative sales growth and short-term trends using moving averages.
