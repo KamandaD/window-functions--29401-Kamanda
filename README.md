@@ -112,7 +112,7 @@ FROM sales s
 RIGHT JOIN products p ON s.product_id = p.product_id
 WHERE s.sale_id IS NULL;
 
-
+![Image AET](https://github.com/KamandaD/window-functions--29401-Kamanda/blob/80656b69095e2a581d52e87daba85119233e0c6c/screenshots/right-join.png)
 Business Interpretation:
 This highlights underperforming products that may require promotional strategies or pricing adjustments.
 
